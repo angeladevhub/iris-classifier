@@ -7,16 +7,16 @@ This project trains and evaluates a machine learning model using Decision Tree C
 - The confusion matrix plot and the saved model stored in the outputs folder. 
 
 # project structure
-├── notebooks/
-│ └── iris_model.ipynb # Jupyter notebook (experiments, exploration)
-├── src/
-│ ├── train.py # Train model, save confusion matrix + model file
-│ └── test.py # Load model and evaluate on test set
-├── outputs/
-│ ├── confusion_matrix.png # Confusion matrix plot
-│ └── decision_tree_model.pkl# Saved model
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+- ├── notebooks/
+-   └── iris_model.ipynb # Jupyter notebook (experiments, exploration)
+- ├── src/
+-   └── train.py # Train model, save confusion matrix + model file
+-   └── test.py # Load model and evaluate on test set
+- ├── outputs/
+-  ├── confusion_matrix.png # Confusion matrix plot
+-   └── decision_tree_model.pkl# Saved model
+- ├── requirements.txt # Python dependencies
+- └── README.md # Project documentation
 
 # setup instructions
 - download the folder
